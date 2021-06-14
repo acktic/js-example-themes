@@ -5,7 +5,7 @@ Browser root attributes (customizable)
 let set = `Example`;
 
 ## object Function
-[code]
+```
        let place = `js/themes/`;
        let type = `.js`;
       
@@ -32,4 +32,4 @@ for (i = 0; i <= themes.length - 1; i++) {
             }, 350);
           })();
       }
-[/code]
+```
