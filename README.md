@@ -10,16 +10,16 @@ let themes = [
 ];
 
 ##
-for (i = 0; i <= themes.length - 1; i++) {
-        (function (i) {
-          document.addEventListener(
-            `click`,
-            function (event) {
-              if (event.target.classList.contains(themes[i].class)) {
-                window[themes[i].class]();
-              }
-            },
-            false
-          );
-        })(i);
+for (i = 0; i <= themes.length - 1; i++) {<br>
+        (function (i) {<br>
+          document.addEventListener(<br>
+            `click`,<br>
+            function (event) {<br>
+              if (event.target.classList.contains(themes[i].class)) {<br>
+                window[themes[i].class]();<br>
+              }<br>
+            },<br>
+            false<br>
+          );<br>
+        })(i);<br>
       }
