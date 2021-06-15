@@ -10,7 +10,11 @@ let set = `Example`;
        let type = `.js`;
       
 let themes = [
-  { obFn: `Example`, class: `Example`, icon: `fa-digital-tachograph` },
+  { obFn: `Light`, class: `Light`, icon: `fa-terminal` },
+  { obFn: `Night`, class: `Night`, icon: `fa-code` },
+  { obFn: `Informative`, class: `Informative`, icon: `fa-info` },
+  { obFn: `Camoflage`, class: `Camoflage`, icon: `fa-angle-double-up` },
+  { obFn: `Solarized`, class: `Solarized`, icon: `fa-digital-tachograph` },
 ];
 
 for (i = 0; i <= themes.length - 1; i++) {
