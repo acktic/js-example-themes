@@ -5,7 +5,7 @@ var Example = function () {
   ); //not widely adapted
   document.documentElement.style.setProperty(
     `--loader-color`,
-    `rgba(106, 66, 194, 1)`
+    `rgba(106, 66, 194, .3)`
   ); // Pending Circle                       //Text Color, Loading Color
   document.documentElement.style.setProperty(`--fill-color`, `#ffffff`);
   document.documentElement.style.setProperty(
