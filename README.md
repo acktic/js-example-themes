@@ -32,8 +32,8 @@ for (i = 0; i <= themes.length - 1; i++) {
                   window[set]();
                   clearInterval(startup);
                 }
-              }, 250);
-            }, 350);
+              }, 350);
+            }, 500);
           })();
       }
 ```
