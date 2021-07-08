@@ -29,5 +29,4 @@ var Example = function () {
     `rgba(63, 92, 136, .4)`
   ); // Main, TopBar Input, Left Right (feed)
   document.querySelector(`#favicon`).setAttribute(`href`, `favicon.ico`);
-    .style.backgroundImage = `url(${backgroundImage[0].path})`
 };
